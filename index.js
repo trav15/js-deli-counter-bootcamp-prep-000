@@ -23,5 +23,8 @@ function currentLine(katzDeliLine) {
     for (i = 0; i<katzDeliLine.length; i++) {
       currentLineString.concat(`${i}. ${katzDeliLine[katzDeliLine.length-1]}`)
     }
+    return currentLineString
+  } else {
+    return 
   }
 }
