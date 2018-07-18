@@ -18,10 +18,10 @@ function nowServing(katzDeliLine) {
 }
 
 function currentLine(katzDeliLine) {
-  var currentLineArray = [
+  var currentLineString = "The line is currently: "
   if (katzDeliLine.length > 0) {
     for (i = 0; i<katzDeliLine.length; i++) {
-      return `The line is currently: ${i}. ${katzDeliLine[katzDeliLine.length-1]}
+      currentLineString.concat(`${i}. ${katzDeliLine[katzDeliLine.length-1]}`)
     }
   }
 }
