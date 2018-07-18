@@ -6,3 +6,5 @@ function takeANumber(katzDeliLine, newPerson) {
   placeInLine = katzDeliLine.length
   return `Welcome, ${newPerson}. You are number ${placeInLine} in line.`
 }
+
+function nowServing
