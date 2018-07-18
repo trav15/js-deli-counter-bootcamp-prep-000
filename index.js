@@ -25,6 +25,6 @@ function currentLine(katzDeliLine) {
     }
     return currentLineString
   } else {
-    return 'The line is currently empty'
+    return 'The line is currently empty.'
   }
 }
